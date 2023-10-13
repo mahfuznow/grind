@@ -347,7 +347,10 @@
                                     className: "h-4 w-4",
                                     "aria-hidden": "true"
                                 })
-                            })]
+                            })],
+                            style: {
+                                display: "none"
+                            }
                         }), c && (0, t.jsx)("div", {
                             className: "text-xs bg-yellow-400 text-gray-900 px-4 py-4 sm:px-6 lg:px-8",
                             children: 'Preferences will be ignored since you have selected to "View All Questions"'
@@ -1141,7 +1144,10 @@
                             children: "FAANG-quality resume templates and examples"
                         }), " which have helped many Software Engineers get interviews at top Bay Area companies. Grab them now for a ", (0, t.jsx)("u", {
                             children: "whopping 70% off"
-                        }), "!"]
+                        }), "!"],
+                        style: {
+                            display: "none"
+                        }
                     }), (0, t.jsxs)("div", {
                         className: "block lg:hidden",
                         children: ["Grab FAANG-quality resume templates and examples now for a", " ", (0, t.jsx)("u", {
@@ -1335,7 +1341,10 @@
                                         children: (0, t.jsx)(R, {
                                             position: "sidebar"
                                         })
-                                    })
+                                    }),
+                                    style: {
+                                        display: "none"
+                                    }
                                 }), (0, t.jsx)("div", {
                                     className: "h-full py-6 px-4 sm:px-6 md:order-1 grow",
                                     children: (0, t.jsx)("div", {
